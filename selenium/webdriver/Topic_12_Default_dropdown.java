@@ -24,6 +24,7 @@ public class Topic_12_Default_dropdown {
     @BeforeClass
     public void beforeClass() {
         driver = new FirefoxDriver();
+
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
